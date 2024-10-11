@@ -1,32 +1,31 @@
 /* Apply border-box to all elements */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Optional: Set default margin and padding for body */
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    text-align: center;
-    font-weight: 700;
-    font-size: 26px;
-    font-family: 'Protest Strike';
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Protest Strike";
 }
- 
 
 .title {
-    text-align: center;
-    font-family: "Baloo 2" ;
+  text-align: center;
+  font-family: "Baloo 2";
 }
 
 p {
-    font-family: Sora;
+  font-family: Sora;
 }
 
- /* .colors h4 {
+/* .colors h4 {
     display: inline-block;
     text-align: center;
     border: 3px black solid;
@@ -38,103 +37,103 @@ p {
 
 /* sections */
 main section {
-    border: 3px solid black;
-    margin: 75px 50px;
+  border: 3px solid black;
+  margin: 75px 50px;
 }
 
-.fontbox h2{
- text-decoration: underline;
+.fontbox h2 {
+  text-decoration: underline;
 }
 
- .pstrike p,
- .pstrike {
-    font-family: 'Protest Strike', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+.pstrike p,
+.pstrike {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .baloo p,
 .baloo {
-    font-family: 'Baloo 2', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .sora p,
 .sora {
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
-    font-size:14px ;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .fontbox .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .fontbox .italics {
-    font-style: italic;
+  font-style: italic;
 }
 
 .colors h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 10px;
-    width: 200px;
-    height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+  width: 200px;
+  height: 75px;
 }
 
 .colorbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #night {
-    background-color: #151515;
+  background-color: #151515;
 }
 #redwood {
-    background-color: #A63D40;
+  background-color: #a63d40;
 }
 #yellow {
-    background-color: #E9B872;
+  background-color: #e9b872;
 }
 #asparagus {
-    background-color: #90A959;
+  background-color: #90a959;
 }
 #blue {
-    background-color: #6494AA;
+  background-color: #6494aa;
 }
 
 .fontbox {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    /* border: #151515 solid 2px; */
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: #151515 solid 2px; */
+  margin: 10px;
 }
 .pstrike {
-    /* border: #151515 solid 2px; */
-    margin: 10px;;
+  /* border: #151515 solid 2px; */
+  margin: 10px;
 }
 .baloo {
-    /* border: #151515 solid 2px; */
-    margin: 10px;;
+  /* border: #151515 solid 2px; */
+  margin: 10px;
 }
 .sora {
-   /* border: #151515 solid 2px; */
-    margin: 10px;;
+  /* border: #151515 solid 2px; */
+  margin: 10px;
 }
 
-.stylebox{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
-   /* border: #151515 solid 2px; */
+.stylebox {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  /* border: #151515 solid 2px; */
 }
 
 /* 
@@ -143,4 +142,3 @@ main section {
         justify-content: space-evenly;
     } 
 */
-
