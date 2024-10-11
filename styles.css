@@ -84,8 +84,6 @@ main section {
     height: 75px;
 }
 
-
-
 .colorbox {
     display: flex;
     flex-wrap: wrap;
@@ -108,3 +106,41 @@ main section {
 #blue {
     background-color: #6494AA;
 }
+
+.fontbox {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: #151515 solid 2px; */
+    margin: 10px;
+}
+.pstrike {
+    /* border: #151515 solid 2px; */
+    margin: 10px;;
+}
+.baloo {
+    /* border: #151515 solid 2px; */
+    margin: 10px;;
+}
+.sora {
+   /* border: #151515 solid 2px; */
+    margin: 10px;;
+}
+
+.stylebox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+   /* border: #151515 solid 2px; */
+}
+
+/* 
+    .h1font .h2font .pfont{
+        display: flex;
+        justify-content: space-evenly;
+    } 
+*/
+
